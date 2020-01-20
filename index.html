@@ -54,7 +54,7 @@
     </header>
 
     <!-- Section: What We Do -->
-    <section id="what" class="background-light vertical-padding-10">
+    <section id="what" class="background-light vertical-padding-1">
       <div class="container">
         <h2 class="medium-heading text-center">
           <span class="text-primary">What</span> We Do
@@ -93,5 +93,97 @@
         </div>
       </div>
     </section>
+
+    <!-- Section: Who We Are -->
+    <section id="who">
+      <div class="who-image"></div>
+      <div class="who-text background-dark padding-2">
+        <h2 class="medium-heading">
+          <span class="text-primary">Who</span> We Are
+        </h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni enim
+          nam excepturi accusamus repellendus repudiandae doloremque dicta nihil
+          hic, distinctio minus quis odit veritatis ad tempore minima fugiat
+          quo. Ratione.
+        </p>
+        <h3>Our Team</h3>
+        <ul class="list">
+          <li>Mark Smith: CEO</li>
+          <li>Shannon Johnson: CFO</li>
+          <li>John Corbit: Lead Accountant</li>
+          <li>Janet Williams: Investment Manager</li>
+          <li>Kara Jackson: Senior Accountant</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section: Clients -->
+    <section id="clients" class="vertical-padding-1">
+      <div class="container">
+        <h2 class="medium-heading text-center">
+          <span class="text-primary">Our</span> Clients
+        </h2>
+        <div class="items vertical-padding-1">
+          <div><img src="./img/logos/logo1.png" alt="Client" /></div>
+          <div><img src="./img/logos/logo2.png" alt="Client" /></div>
+          <div><img src="./img/logos/logo3.png" alt="Client" /></div>
+          <div><img src="./img/logos/logo4.png" alt="Client" /></div>
+          <div><img src="./img/logos/logo5.png" alt="Client" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Contact -->
+    <section id="contact">
+      <div class="contact-form background-primary padding-2">
+        <h2 class="medium-heading">Contact Us</h2>
+        <p>Please use the form below to contact us</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name" />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="Enter Phone Number"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Enter Message"
+            ></textarea>
+          </div>
+          <input type="submit" value="Send" class="button button-dark" />
+        </form>
+      </div>
+      <div class="map"></div>
+    </section>
+
+    <script src="js/main.js"></script>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSikcyTxQnfdIJfj_l-fzDNxauHEzpoug&callback=initMap"
+      async
+      defer
+    ></script>
   </body>
 </html>
+
+<!-- AIzaSyCSikcyTxQnfdIJfj_l-fzDNxauHEzpoug -->

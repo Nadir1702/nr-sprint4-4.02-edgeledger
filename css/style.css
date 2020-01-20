@@ -36,6 +36,21 @@ p {
   color: #93cb52;
 }
 
+.background-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.background-dark {
+  background: #333;
+  color: #f4f4f4;
+}
+
+.background-primary {
+  background: #39cb52;
+  color: #fff;
+}
+
 .large-heading {
   font-size: 4rem;
   margin-bottom: 0.75rem;
@@ -53,13 +68,23 @@ p {
   margin-bottom: 2rem;
 }
 
-.vertical-padding-10 {
+.padding-1 {
+  padding: 1.5rem;
+}
+.padding-2 {
+  padding: 2rem;
+}
+.padding-3 {
+  padding: 3rem;
+}
+
+.vertical-padding-1 {
   padding: 1.5rem 0;
 }
-.vertical-padding-25 {
+.vertical-padding-2 {
   padding: 2rem 0;
 }
-.vertical-padding-30 {
+.vertical-padding-3 {
   padding: 3rem 0;
 }
 
@@ -79,6 +104,17 @@ p {
 .button-dark {
   color: #fff;
   background: #333;
+}
+
+.list {
+  margin: 0.5rem 0;
+  list-style: none;
+  list
+}
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: #444 dotted 1px;
 }
 
 /* Navbar */
@@ -150,4 +186,51 @@ p {
   padding: 1rem;
   border-radius: 50%;
   margin-bottom: 1rem;
+}
+
+/* Section: Who We Are */
+#who {
+  display: flex;
+}
+
+#who div {
+  flex: 1;
+}
+
+#who .who-image {
+  background: url("../img/people.jpg") no-repeat center center/cover;
+}
+
+/* Section: Clients */
+#clients .items {
+  display: flex;
+}
+
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+/* Section: Contact Us */
+#contact {
+  display: flex;
+}
+
+#contact .map, #contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: .75
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: .5rem;
 }
